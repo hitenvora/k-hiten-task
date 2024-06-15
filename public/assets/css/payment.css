@@ -1,0 +1,483 @@
+  /* payment bg seaction start */
+  .payment-bg{
+    background-image: linear-gradient(45deg, #3C050082,  #3C050082), url('../image/about/bg.png'); 
+    width: 100%;
+    background-size: cover;
+    padding: 200px;
+}
+.payment-bg h1{
+    text-align: center;
+    color: #fff;
+    font-size: 70px;
+}
+/* payment bg seaction end */
+
+/* payment method seaction start */
+.payment .number-img{
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+}
+
+
+
+
+
+.payment .accordion .accordion-item {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 10px;
+  }
+  
+  .payment .accordion .accordion-item button[aria-expanded='true'] {
+    border-bottom: 1px solid #5D0C05;
+  }
+  
+  .payment .accordion button {
+    position: relative;
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 1em 0;
+    color: #7288a2;
+    font-size: 1.15rem;
+    font-weight: 400;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  
+  .payment .accordion button:hover,
+  .accordion button:focus {
+    cursor: pointer;
+    color: #5D0C05;
+  }
+  
+  .payment .accordion button:hover::after,
+  .accordion button:focus::after {
+    cursor: pointer;
+    color: #5D0C05;
+    border: 1px solid #5D0C05;
+  }
+  
+  .payment .accordion button .accordion-title {
+    padding: 1em 1.5em 1em 0;
+    font-weight: 600;
+    color: black;
+  }
+  
+  .payment .accordion button .icon {
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    right: 0;
+    width: 22px;
+    height: 22px;
+    border: 1px solid;
+    border-radius: 22px;
+  }
+  
+  .payment .accordion button .icon::before {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 9px;
+    left: 5px;
+    width: 10px;
+    height: 2px;
+    background: currentColor;
+  }
+  .payment .accordion button .icon::after {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 5px;
+    left: 9px;
+    width: 2px;
+    height: 10px;
+    background: currentColor;
+  }
+  
+  .payment .accordion button[aria-expanded='true'] {
+    color: #5D0C05;
+  }
+  .payment .accordion button[aria-expanded='true'] .icon::after {
+    width: 0;
+  }
+  .payment .accordion button[aria-expanded='true'] + .accordion-content {
+    opacity: 1;
+    max-height: 23em;
+    /* padding: 40px; */
+    transition: all 200ms linear;
+    will-change: opacity, max-height;
+  }
+  .payment .accordion .accordion-content {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
+  }
+  .payment .accordion .accordion-content .group-payment .pay-upi{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .payment .accordion .accordion-content .group-payment .pay-upi a{
+    text-decoration: none;
+    background-color: #5D0C05;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+  }
+  .payment .accordion .accordion-content form{
+    padding: 20px;
+  }
+  .payment .accordion .accordion-content form .pay_now{
+    text-align: center;
+  }
+  .payment .accordion .accordion-content form .pay_now a{
+    text-decoration: none;
+    background-color: #5D0C05;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+  .payment .accordion .accordion-content .net-bank .bank{
+    padding: 10px 30px 0px 30px;
+  }
+  .payment .accordion .accordion-content .net-bank .bank img{
+    object-fit: contain;
+  }
+  .payment .accordion .accordion-content .net-bank .bank a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+  }
+ 
+  .payment .accordion .accordion-content .net-bank{
+      height: 23em;
+      overflow-y: scroll;
+      overflow: -moz-scrollbars-none; 
+      scrollbar-width: none; 
+      -ms-overflow-style: none;
+    }
+    .payment .accordion .accordion-content .net-bank .overflow{
+        min-height: auto;
+    }
+    
+    
+    .payment .accordion .accordion-content p {
+      font-size: 1rem;
+      font-weight: 300;
+      margin: 2em 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.payment .box-method{
+    padding: 60px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.payment .select-method{
+    display: flex;
+    justify-content: space-between;
+}
+.payment .select-method h3{
+    font-weight: 600;
+}
+.payment .extra-off a{
+    text-decoration: none;
+}
+.payment .extra-off h4{
+    padding: 15px 50px;
+    text-align: center;
+    background-color: #5D0C05;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 23px;
+}
+.payment .pay-online h5{
+    font-weight: 600;
+}
+.payment .pay-online .dropdown a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+.payment .pay-online .dropdown .dropdown-menu.show {
+    border: none;
+    width: 100%;
+    
+}
+.payment .pay-online .dropdown .dropdown-menu .group-payment {
+    position: relative;
+    margin: 45px 0;
+}
+.payment .pay-online .group-payment input, textarea {
+    background: none;
+    color: black;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 80%;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid black;
+    margin: 0 auto;
+}
+.payment .pay-online .group-payment input:focus, textarea:focus {
+    outline: none;
+}
+.payment .pay-online .group-payment input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
+    top: -14px;
+    font-size: 15px;
+    color: #5D0C05;
+}
+.payment .pay-online .group-payment input:focus ~ .bar:before, textarea:focus ~ .bar:before {
+    width: 100%;
+}
+
+.payment .pay-online .group-payment .bar {
+    position: relative;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+.payment .pay-online .group-payment .bar:before {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 0px;
+    position: absolute;
+    background: #5D0C05;
+    transition: 300ms ease all;
+    left: 0%;
+}
+.payment .pay-online .group-payment .form-text{
+    width: 80%;
+    margin: 0 auto;
+
+}
+.payment .pay-online  i{
+    color: #5D0C05;
+    font-size: 25px;
+}
+.payment .pay-online .paytm{
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.payment .pay-online .paytm .form-check-input[type=radio] {
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.payment .pay-online .paytm .form-check-input:checked {
+    background-color: #5D0C05;
+    border-color: #5D0C05;
+}
+
+.payment .pay-cash .cahs{
+    font-weight: 600;
+    margin-top: 50px;
+}
+.payment .pay-cash  a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+
+.payment .pay-cash .cash{
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    background-color: #5D0C05;
+}
+.payment .pay-cash .cash .form-check-input[type=radio] {
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.payment .pay-cash .cash .form-check-input:checked {
+    background-color: #5D0C05;
+    border-color: #fff;
+}
+
+.payment .box-price .section-item{
+    height: 420px;
+    overflow-y: scroll;
+    overflow: -moz-scrollbars-none; 
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+}
+.payment .box-price  .section-item .overflow{
+    min-height: auto;
+}
+.payment .box-price{
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.payment .box-price h5{
+    font-weight: 600;
+}
+.payment .box-price .cus-hr hr{
+    border-top: 2px solid gray;
+    opacity: 1;
+}
+
+.payment .box-price .item-list{
+    display: flex;
+    gap: 20px;
+}
+
+.payment .box-price .item-list .list-img{
+    object-fit: contain;
+}
+
+.payment .box-price .item-list .list-desc h6{
+    font-weight: bold;
+}
+.payment .box-price .item-list .list-desc p{
+    font-size: 15px;
+}
+.payment .box-price .item-list .list-delet{
+    margin-left: auto;
+}
+.payment .box-price .item-list .list-price h6{
+    color: #3C0500;
+    font-weight: 600;
+}
+.payment .box-price  .checkout{
+    display: flex;
+    justify-content: space-between;
+}
+.payment .box-price  .d-charge{
+    display: flex;
+    justify-content: space-between;
+}
+.payment .box-price  .amt{
+    display: flex;
+    justify-content: space-between;
+}
+.payment .box-price  .amt h5{
+    font-weight: 600;
+}
+.payment .box-price .btn-chek a{
+    text-decoration: none;
+}
+.payment .box-price .btn-chek h6{
+    color: #fff;
+    background-color: #5D0C05;
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 1024px) and (min-width: 992px){
+
+}
+
+
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .payment .extra-off h4 {
+        padding: 15px 20px;
+        font-size: 20px;
+    }
+    .payment .accordion button[aria-expanded='true'] + .accordion-content {
+        max-height: 27em;
+      }
+}
+
+@media screen and (max-width: 767px) and (min-width: 426px){
+    .payment-bg{
+        background-size: cover;
+        padding: 0px;
+    }
+    .payment-bg h1{
+        font-size: 50px;
+        padding: 80px 50px;
+    }
+    .payment .accordion button[aria-expanded='true'] + .accordion-content {
+        max-height: 30em;
+      }
+
+}
+
+
+
+@media screen and (max-width: 425px) and (min-width: 376px){
+    [type=button]:not(:disabled){
+        margin-right: 20px;
+    }
+    .payment-bg{
+        background-size: cover;
+        padding: 0px;
+    }
+    .payment-bg h1{
+        font-size: 50px;
+        padding: 80px 50px;
+    }
+    .payment .extra-off h4 {
+        padding: 15px 20px;
+        font-size: 18px;
+    }
+    .payment .accordion button[aria-expanded='true'] + .accordion-content {
+        max-height: 30em;
+      }
+}
+
+@media screen and (max-width: 375px) and (min-width: 300px) {
+    [type=button]:not(:disabled){
+        margin-right: 20px;
+    }
+    .payment-bg{
+        background-size: cover;
+        padding: 0px;
+    }
+    .payment-bg h1{
+        font-size: 40px;
+        padding: 80px 50px;
+    }
+    .payment .select-method{
+        display: block;
+    }
+    .payment .extra-off h4 {
+        padding: 15px 20px;
+        font-size: 18px;
+    }
+    .payment .pay-online .dropdown a {
+        font-size: 17px;
+    }
+    .payment .accordion button .accordion-title {
+        font-weight: 500;
+        font-size: 17px;
+    }
+    .payment .accordion button[aria-expanded='true'] + .accordion-content {
+        max-height: 30em;
+      }
+}    

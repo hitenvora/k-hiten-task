@@ -1,0 +1,320 @@
+@media screen and (max-width: 1024px) and (min-width: 992px){
+    .discount .box-1 .box-text h4{
+        font-size: 16px;
+    }
+    .discount .box-text h4 .right-icon{
+        margin-left: 10px;
+    }
+    .discount .box-2 .box-text h4{
+        font-size: 16px;
+    }
+    .discount .box-3 .box-text h4{
+        font-size: 16px;
+    }
+    .product .box .b-text .price h5{
+        margin-left: 5px;
+    }
+    .product .box .b-text .price a{
+        margin-left: 10px;
+    }
+    .most .box h3{
+        font-size: 20px;
+    }
+    .offer .sec{
+        right: 24px;
+        top: 11px;
+        width: 85%;
+    }
+    .offer .box{
+        padding: 10px;
+    }
+    .offer .box .b-text h4{
+        font-weight: 700;
+    }
+    .offer .box .b-text .price a{
+        font-size: 25px;
+        margin-left: 10px;
+    }
+    .blog .small-box-blog{
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    [type=button]:not(:disabled){
+        margin-right: 10px;
+    }
+    header .header-icons-2 a{
+        display: block;
+    }
+    header .icon-header{
+        display: none;
+    }
+    .header-icons-2 a {
+        padding: 0 10px;
+    }
+    .discount .col-lg-4{
+        width: 50%;
+        margin-top: 20px;
+    }
+    .product .box .b-text .price h5{
+        margin-left: 5px;
+    }
+    .product .box .b-text .price a{
+        margin-left: 30px;
+    }
+    .offer .col-lg-4{
+        width: 40%;
+    }
+    .offer .col-lg-8{
+        width: 60%;
+    }
+    .offer .sec{
+        right: 20px;
+        top: 11px;
+        width: 85%;
+    }
+    .offer .box{
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) and (min-width: 426px){
+    [type=button]:not(:disabled){
+        margin-right: 10px;
+    }
+    header .header-icons-2 a{
+        display: block;
+    }
+    header .icon-header{
+        display: none;
+    }
+    .header-icons-2 a {
+        padding: 0 10px;
+    }
+    .tel{
+        display: none;
+    }
+    .discount .col-lg-4{
+        width: 50%;
+        margin-top: 20px;
+    }
+    .offer .sec{
+        right: 156px;
+        top: 17px;
+    }
+    .offer .col-lg-8{ 
+        margin-top: 20px;
+    }
+    .blog .small-box-blog{
+        padding-top: 30px;
+    }
+
+}
+
+@media screen and (max-width: 425px) and (min-width: 376px) {
+
+    [type=button]:not(:disabled){
+        margin-right: 10px;
+    }
+    header .header-icons-2 a{
+        display: block;
+    }
+    header .icon-header{
+        display: none;
+    }
+    .header-icons-2 a {
+        padding: 0 10px;
+    }
+    .tel{
+        display: none;
+    }
+    .discount{
+        margin-top: 30px;
+    }
+    .discount .col-lg-4{
+        margin-top: 20px;
+    }
+    .order p{
+        font-size: 20px;
+    }
+    .product .button{
+        display: block;
+        text-align: center;
+    }
+    .product .button .all-bt{
+        display: block;
+        text-align: center;
+    }
+    .product  .big-screen-product-home{
+        display: none;
+    }
+    .product  .home-mobile-product{
+        display: block;
+    }
+    .most {
+        padding: 10px;
+    }
+    .most h1 {
+        font-size: 40px;
+    }
+    .most p {
+        font-size: 18px;
+    }
+    .offer .offer-text h1{
+        font-size: 40px;
+    }
+    .offer .sec{
+        right: 40px;
+        top: 17px;
+    }
+    .offer .col-lg-8{ 
+        margin-top: 20px;
+    }
+    .offer .offer-text .view h5 {
+        padding: 15px 12px;
+    }
+    .offer .big-screen-offer-product{
+        display: none;
+    }
+    .offer .mobile-screen-offer-product{
+        display: block;
+    }
+    .blog h1 {
+        font-size: 40px;
+    }
+    .blog .small-box-blog{
+        padding-top: 30px;
+    }
+    .blog .small-blog{
+        display: block;
+    }
+    .blog .small-blog a{
+        text-align: start;
+    }
+    .rating .google{
+        display: block;
+    }
+    .rating .google h1 {
+        font-size: 50px;
+    }
+    .rating .star h1{
+        margin-left: 20px;
+    }
+    .rating .star{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 375px) and (min-width: 300px) {
+    [type=button]:not(:disabled){
+        margin-right: 10px;
+    }
+    header .header-icons-2 a{
+        display: block;
+    }
+    header .icon-header{
+        display: none;
+    }
+    .header-icons-2 a {
+        padding: 0 10px;
+    }
+    .tel{
+        display: none;
+    }
+    .discount{
+        margin-top: 30px;
+    }
+    .discount .col-lg-4{
+        margin-top: 20px;
+    }
+    .discount .box-text h4 .right-icon{
+        margin-left: 0px;
+    }
+    .discount .box-2 .box-text h4 {
+        font-size: 18px;
+    }
+    .discount .box-1 .box-text h4 {
+        font-size: 18px;
+    }
+    .discount .box-3 .box-text h4 {
+        font-size: 18px;
+    }
+    .order p{
+        text-align: start;
+        font-size: 17px;
+    }
+    .product .button{
+        display: block;
+        text-align: center;
+    }
+    .product .button .all-bt{
+        display: block;
+        text-align: center;
+    }
+    .product  .big-screen-product-home{
+        display: none;
+    }
+    .product  .home-mobile-product{
+        display: block;
+    }
+    .most {
+        padding: 10px;
+    }
+    .most h1 {
+        font-size: 40px;
+    }
+    .most p {
+        font-size: 17px;
+    }
+    .offer .offer-text h1{
+        font-size: 40px;
+    }
+    .offer .sec{
+        right: 23px;
+        top: 15px;
+        width: 85%;
+    }
+    .offer .col-lg-8{ 
+        margin-top: 20px;
+    }
+    .offer .offer-text .view h5 {
+        padding: 15px 12px;
+        font-size: 20px;
+    }
+    .offer .big-screen-offer-product{
+        display: none;
+    }
+    .offer .mobile-screen-offer-product{
+        display: block;
+    }
+    .blog h1 {
+        font-size: 40px;
+    }
+    .blog .small-box-blog{
+        padding-top: 30px;
+    }
+    .blog .small-blog{
+        display: block;
+    }
+    .blog .small-blog img{
+        /* margin-left: 20px; */
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    .rating .google h1 {
+        font-size: 50px;
+    }.rating .star h1{
+        margin-left: 20px;
+    }
+    .rating .google{
+        display: block;
+    }
+    .rating .star{
+        display: block;
+    }
+}

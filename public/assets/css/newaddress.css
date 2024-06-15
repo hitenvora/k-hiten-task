@@ -1,0 +1,173 @@
+.new-address h3 {
+  font-weight: 600;
+}
+
+.new-address .box {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.new-address .box h4 {
+  font-weight: 600;
+}
+
+.new-address .box .add-edit {
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+}
+
+.new-address .box .add-edit a {
+  color: #5D0C05;
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.new-address .add_new {
+  margin-top: 50px;
+}
+
+.new-address .add_new a {
+  color: #5D0C05;
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px 50px;
+  border: 1px solid #5D0C05;
+  border-radius: 10px;
+}
+
+.new-address .new_adderss_form button {
+  text-decoration: none;
+  background-color: #5D0C05;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.new-address .shipping .cod {
+  border: 1px solid #565656;
+  padding: 40px;
+}
+
+.new-address .shipping .cod .free {
+  text-align: center;
+}
+
+.new-address .shipping .cod .free h5 {
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.new-address .shipping .cod h2 {
+  text-align: center;
+}
+
+.new-address .shipping .cod .con {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.new-address .shipping .cod a {
+  text-decoration: none;
+  padding: 15px 40px;
+  border: 2px solid #5D0C05;
+  color: #5D0C05;
+  font-weight: 700;
+  border-radius: 10px;
+  font-size: 18px;
+
+}
+
+.office {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.office .office-home {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.office a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  background-color: transparent;
+  padding: 10px 20px;
+  border: 2px solid #3C0500;
+  border-radius: 10px;
+}
+
+.office a.selected {
+  background-color: #5D0C05;
+  color: white;
+}
+
+.office a:hover {
+  background-color: #5D0C05;
+  color: #fff;
+  transition: .3s ease-in;
+}
+
+
+
+
+
+
+
+.new-address .shipping .payment-me {
+  border: 1px solid #565656;
+  padding: 40px;
+}
+
+.new-address .shipping .payment-me .payment-card img {
+  margin-right: 10px;
+}
+
+
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .new-address .shipping .col-lg-3 {
+    width: 25%;
+  }
+
+  .new-address .shipping .col-lg-6 {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 426px) {
+  .new-address .shipping .col-lg-3 {
+    width: 50%;
+  }
+
+  @media screen and (max-width: 425px) and (min-width: 376px) {
+
+    .form-box .office {
+      display: block;
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 375px) and (min-width: 300px) {
+    .address .form-box .office {
+      display: block;
+      text-align: center;
+    }
+
+    .address .form-box .save-address button {
+      padding: 10px 10px;
+      font-size: 16px;
+      border-radius: 10px;
+    }
+  }
+
+
+
+}

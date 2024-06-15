@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Mogra&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.robot{
+    font-family: "Roboto";
+}
+.policy h1{
+    text-align: center;
+    color: #5D0C05;
+    font-size: 50px;
+    font-weight: 700;
+}
+.policy p{
+    font-size: 20px;
+}
+.policy li{
+    font-size: 20px;
+}

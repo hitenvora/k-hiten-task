@@ -1,0 +1,272 @@
+.faq h1{
+    font-weight: 700;
+}
+.faq .accordion .accordion-item {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 10px;
+  }
+  
+  .faq .accordion .accordion-item button[aria-expanded='true'] {
+    border-bottom: 1px solid #5D0C05;
+  }
+  
+  .faq .accordion button {
+    position: relative;
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 1em 0;
+    color: #7288a2;
+    font-size: 1.15rem;
+    font-weight: 400;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  
+  .faq .accordion button:hover,
+  .accordion button:focus {
+    cursor: pointer;
+    color: #5D0C05;
+  }
+  
+  .faq .accordion button:hover::after,
+  .accordion button:focus::after {
+    cursor: pointer;
+    color: #5D0C05;
+    border: 1px solid #5D0C05;
+  }
+  
+  .faq .accordion button .accordion-title {
+    padding: 1em 1.5em 1em 0;
+    font-weight: 600;
+  }
+  
+  .faq .accordion button .icon {
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    right: 0;
+    width: 22px;
+    height: 22px;
+    border: 1px solid;
+    border-radius: 22px;
+  }
+  
+  .faq .accordion button .icon::before {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 9px;
+    left: 5px;
+    width: 10px;
+    height: 2px;
+    background: currentColor;
+  }
+  .faq .accordion button .icon::after {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 5px;
+    left: 9px;
+    width: 2px;
+    height: 10px;
+    background: currentColor;
+  }
+  
+  .faq .accordion button[aria-expanded='true'] {
+    color: #5D0C05;
+  }
+  .faq .accordion button[aria-expanded='true'] .icon::after {
+    width: 0;
+  }
+  .faq .accordion button[aria-expanded='true'] + .accordion-content {
+    opacity: 1;
+    max-height: 9em;
+    transition: all 200ms linear;
+    will-change: opacity, max-height;
+  }
+  .faq .accordion .accordion-content {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
+  }
+  .faq .accordion .accordion-content p {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 2em 0;
+  }
+  
+
+.faq .box{
+    padding: 40px 30px;
+    box-shadow: 0px 0px 10px 1px #00000040;
+    border-radius: 10px;
+}  
+.faq h2{
+    font-weight: 700;
+}
+.faq h2 span{
+    color: #959595;
+}
+.faq h3{
+    color: #5D0C05;
+    margin-top: 50px;
+    font-weight: 600;
+}
+.faq .chat-box{
+    margin-top: 30px;
+    /* padding: 20px; */
+    background: #F5F2F2;
+    border-radius: 10px 10px 0 0;
+}
+.faq .chat-box .main-title{
+    background: #6A0901;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    padding: 15px 20px;
+}
+.faq .chat-box .chat-massage{
+  padding: 20px;
+}
+.faq .chat-box .chat-massage p{
+  text-align: center;
+}
+.faq .chat-box .chat-massage .send {
+  display: flex;
+  justify-content: flex-end; 
+  position: relative;
+}
+.faq .chat-box .chat-massage .send h5{
+  background-color: #5D0C05;
+  color: #fff;
+  padding: 10px 40px;
+  border-radius: 10px 10px 0 10px;
+  font-size: 17px;
+}
+.faq .chat-box .chat-massage .send h5 .time{
+  font-size: 10px;
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+}
+.faq .chat-box .chat-massage .resive {
+  padding: 0 15px 0px 0px;
+}
+.faq .chat-box .chat-massage .resive h5{
+  position: relative;
+  background-color: #fff;
+  padding: 10px 40px;
+  border-radius: 10px 10px 0 10px;
+  font-size: 17px;
+}
+.faq .chat-box .chat-massage .resive h5 .time{
+  font-size: 10px;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+.faq .chat-box input{
+  border: none;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+}
+.faq .shipping .cod{
+  border: 1px solid #565656;
+  padding: 40px;
+}
+.faq .shipping .cod .free{
+  text-align: center;
+}
+.faq .shipping .cod .free h5{
+  font-weight: 700;
+  margin-top: 20px;
+}
+.faq .shipping .cod h2{
+  text-align: center;
+}
+.faq .shipping .cod .con{
+  text-align: center;
+  margin-top: 50px;
+}
+.faq .shipping .cod a{
+  text-decoration: none;
+  padding: 15px 40px;
+  border: 2px solid #5D0C05;
+  color: #5D0C05;
+  font-weight: 700;
+  border-radius: 10px;
+  font-size: 18px;
+
+}
+.faq .shipping .payment-me{
+  border: 1px solid #565656;
+  padding: 40px;
+}
+.faq .shipping .payment-me .payment-card img{ 
+  margin-right: 10px;
+}
+
+
+
+@media screen and (max-width: 1024px) and (min-width: 992px){
+
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px){
+  .faq .shipping .col-lg-3{
+    width: 25%;
+  }
+  .faq .shipping .col-lg-6{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 426px){
+  .faq .shipping .col-lg-3{
+    width: 50%;
+  }
+
+}
+
+@media screen and (max-width: 425px) and (min-width: 376px){
+  .faq{
+    margin-top: 50px;
+  }
+  .faq .accordion .accordion-item {
+    padding: 2px;
+  }
+  .faq .accordion button{
+    padding: 10px 0;
+    /* font-size: 16px; */
+  }
+  .faq .box {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 375px) and (min-width: 300px){
+  .faq{
+    margin-top: 50px;
+  }
+  .faq .box {
+    padding: 40px 10px;
+    margin-top: 30px;
+  }
+  .faq .accordion .accordion-item {
+    padding: 2px;
+  }
+  .faq .accordion button{
+    padding: 10px 0;
+    font-size: 16px;
+  }
+  .faq .cod {
+    padding: 40px 10px;
+  }
+  .faq .payment-me{
+    padding: 40px 10px;
+  }
+}
